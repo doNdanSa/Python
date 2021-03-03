@@ -1,0 +1,22 @@
+ 
+The 1950s ushered in a slew of UFO sightings and excitement about outer space. Incidentally, the decade also brought about a new idea of artificial intelligence. The computer scientist Alan Turing proposed that if a computer was able to fool a human into believing it was human, the computer would be considered “intelligent.”
+
+While your bot may not pass a true Turing test, perhaps it could pass an “E.T.uring” test if you can successfully fool a human into believing that your chatbot is, in fact, an alien.
+
+We’ve added a class called AlienBot to get you started; you’ll be digging into the main chatbot functionality. Take a look at what you have in script.py:
+
+    the regex and random libraries are imported
+    a tuple of negative responses (you can add more!)
+    a tuple of commands for a user to exit the program
+    a tuple of random starter questions an alien might ask (feel free to add more)
+    a tuple of dictionaries called alienbabble with the chatbot’s main intent-utterance matching pairs — you’ll add to this later!
+    several methods for core chatbot functionality:
+        .greet() will greet the user
+        .make_exit() will check if a user has used an exit command
+        .chat() will run the program allowing users to chat with the alien you created
+        .match_reply() will match the response pairs in alienbabble for you
+    several methods associated with user intents
+        .describe_planet_intent() will include responses about the alien’s planet
+        .answer_why_intent() will include responses for why the alien is visiting
+        .cubed_intent() is a method that returns the cube of a number, because these aliens are very good at math
+        .no_match_intent() will respond with something general when none of the other intents are matched
